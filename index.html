@@ -4,92 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Louis+</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
-      color: white;
-      margin: 0;
-      padding: 0;
-    }
-
-    .header {
-      text-align: center;
-      padding: 20px;
-      background-color: #222;
-    }
-
-    .header h1 {
-      margin: 0;
-    }
-
-    .video-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-
-    .video-card {
-      background-color: #333;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .video-card img {
-      width: 100%;
-      border-bottom: 2px solid #444;
-    }
-
-    .video-card h3 {
-      padding: 10px;
-      font-size: 1.2rem;
-      text-align: center;
-    }
-
-    .video-card p {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-
-    .video-card iframe {
-      width: 100%;
-      height: 200px;
-    }
-
-    .footer {
-      background-color: #222;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-
-    .footer p {
-      margin: 0;
-    }
-
-    .serie-info {
-      background-color: #444;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      margin-bottom: 20px;
-    }
-
-    .serie-info h2 {
-      text-align: center;
-    }
-
-    .serie-info p {
-      font-size: 1rem;
-      text-align: center;
-      color: #aaa;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="header">
@@ -97,14 +12,14 @@
     <p>Benvenuto! Qui puoi guardare le serie e i tuoi video preferiti.</p>
   </div>
 
-  <!-- Serie Esempio -->
+  <!-- Serie 1: Serie di Esempio -->
   <div class="serie-info">
     <h2>Serie di Esempio</h2>
     <p><strong>Data di rilascio della serie:</strong> 01/05/2025</p>
     <p><strong>Descrizione della serie:</strong> Una serie emozionante che segue il viaggio di un protagonista in cerca di verità e redenzione. Tra colpi di scena e momenti di tensione, ogni episodio rivela nuove sfide e sorprese. Una storia che ti terrà incollato allo schermo!</p>
   </div>
 
-  <!-- Griglia dei video -->
+  <!-- Griglia degli episodi per la Serie 1 -->
   <div class="video-grid">
     <!-- Episodio 1 -->
     <div class="video-card">
@@ -134,9 +49,47 @@
     </div>
   </div>
 
+  <!-- Serie 2: Un'altra Serie Esempio -->
+  <div class="serie-info">
+    <h2>Un'altra Serie Esempio</h2>
+    <p><strong>Data di rilascio della serie:</strong> 10/06/2025</p>
+    <p><strong>Descrizione della serie:</strong> Questa serie segue le avventure di un gruppo di amici che affrontano una misteriosa sfida che li porterà a scoprire verità incredibili. Un mix di mistero e dramma che ti terrà incollato fino alla fine!</p>
+  </div>
+
+  <!-- Griglia degli episodi per la Serie 2 -->
+  <div class="video-grid">
+    <!-- Episodio 1 -->
+    <div class="video-card">
+      <img src="https://via.placeholder.com/300x200" alt="Episodio 1">
+      <h3>Episodio 1: L'Inizio del Mistero</h3>
+      <p>Data pubblicazione: 10/07/2025</p>
+      <p>Descrizione: Un gruppo di amici si trova di fronte a un mistero che non riescono a risolvere. Inizia così la loro avventura.</p>
+      <iframe src="https://streamable.com/e/ID_VIDEO4" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Episodio 2 -->
+    <div class="video-card">
+      <img src="https://via.placeholder.com/300x200" alt="Episodio 2">
+      <h3>Episodio 2: La Verità Nascosta</h3>
+      <p>Data pubblicazione: 17/07/2025</p>
+      <p>Descrizione: Un nuovo indizio emerge, portando il gruppo a scoprire qualcosa che cambierà tutto. La tensione cresce.</p>
+      <iframe src="https://streamable.com/e/ID_VIDEO5" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Episodio 3 -->
+    <div class="video-card">
+      <img src="https://via.placeholder.com/300x200" alt="Episodio 3">
+      <h3>Episodio 3: Confronto Finale</h3>
+      <p>Data pubblicazione: 24/07/2025</p>
+      <p>Descrizione: Il gruppo affronta finalmente la verità. Un episodio ad alta tensione che risponde a tutte le domande.</p>
+      <iframe src="https://streamable.com/e/ID_VIDEO6" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
   <!-- Footer -->
   <div class="footer">
     <p>&copy; 2025 Louis+. Tutti i diritti riservati.</p>
   </div>
 </body>
 </html>
+
