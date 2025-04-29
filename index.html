@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louis+</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .video-card {
+      background-color: #333;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .video-card img {
+      width: 100%;
+      border-bottom: 2px solid #444;
+    }
+
+    .video-card h3 {
+      padding: 10px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    .video-card p {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .video-card iframe {
+      width: 100%;
+      height: 200px;
+    }
+
+    .footer {
+      background-color: #222;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+
+    .serie-info {
+      background-color: #444;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    .serie-info h2 {
+      text-align: center;
+    }
+
+    .serie-info p {
+      font-size: 1rem;
+      text-align: center;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Louis+</h1>
+    <p>Benvenuto! Qui puoi guardare le serie e i tuoi video preferiti.</p>
+  </div>
+
+  <!-- Serie Esempio -->
+  <div class="serie-info">
+    <h2>Serie di Esempio</h2>
+    <p><strong>Data di rilascio della serie:</strong> 01/05/2025</p>
+    <p><strong>Descrizione della serie:</strong> Una serie emozionante che segue il viaggio di un protagonista in cerca di verità e redenzione. Tra colpi di scena e momenti di tensione, ogni episodio rivela nuove sfide e sorprese. Una storia che ti terrà incollato allo schermo!</p>
+  </div>
+
+  <!-- Griglia dei video -->
+  <div class="video-grid">
+    <!-- Episodio 1 -->
+    <div class="video-card">
+      <img src="https://via.placeholder.com/300x200" alt="Episodio 1">
+      <h3>Episodio 1: Il Grande Inizio</h3>
+      <p>Data pubblicazione: 01/06/2025</p>
+      <p>Descrizione: In questo primo episodio, il protagonista si prepara ad affrontare una sfida che cambierà il corso della sua vita. Un'introduzione emozionante alla serie.</p>
+      <iframe src="https://streamable.com/e/ID_VIDEO1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Episodio 2 -->
+    <div class="video-card">
+      <img src="https://via.placeholder.com/300x200" alt="Episodio 2">
+      <h3>Episodio 2: La Sfida</h3>
+      <p>Data pubblicazione: 08/06/2025</p>
+      <p>Descrizione: Il protagonista affronta una difficile decisione. Riuscirà a superare l'ostacolo che si è posto davanti? Un episodio ricco di colpi di scena.</p>
+      <iframe src="https://streamable.com/e/ID_VIDEO2" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Episodio 3 -->
+    <div class="video-card">
+      <img src="https://via.placeholder.com/300x200" alt="Episodio 3">
+      <h3>Episodio 3: La Rivelazione</h3>
+      <p>Data pubblicazione: 15/06/2025</p>
+      <p>Descrizione: Un segreto che cambia tutto viene finalmente svelato, mettendo il protagonista di fronte a una verità inaspettata.</p>
+      <iframe src="https://streamable.com/e/ID_VIDEO3" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 Louis+. Tutti i diritti riservati.</p>
+  </div>
+</body>
+</html>
