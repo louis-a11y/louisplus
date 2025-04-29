@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  <link rel="stylesheet" href="styles.css">
+
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.video-card {
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-card img {
+  width: 100%;
+  border-bottom: 2px solid #444;
+}
+
+.video-card h3 {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.video-card p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.footer {
+  background-color: #222;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.serie-info {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.serie-info h2 {
+  text-align: center;
+}
+
+.serie-info p {
+  font-size: 1rem;
+  text-align: center;
+  color: #aaa;
+}
